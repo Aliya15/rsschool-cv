@@ -1,65 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Alia Ioanu's CV</title>
-    <style>
-        * {
-            font-family: sans-serif;
-            box-sizing: border-box;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-
-        .wrapper {
-            width: 600px;
-            border: 1px solid #e0e0e0;
-            border-radius: 5px;
-            padding: 5px 15px;
-            margin-top: 50px;
-        }
-
-        .no-information {
-            color: #6b6b6b;
-        }
-    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <h1>Aliya Ioanu</h1>
-    </header>
-    <main>
-        <div>
-            <h2>Contacts</h2>
-                <p>Phone Number: +7 961 632 36 89</p>
-                <p>E-Mail: aliya.asadova15@gmail.com</p>
-        </div>
-        <div>
-            <h2>Education</h2>
-            <h3>High School of Economics - Nizhny Novgorod (2017 - 2019)</h3>
-            <p>Master's degree "Entrepreneurship and leadership"</p>
-            <h3>N. I. Lobachevsky State University of Nizhny Novgorod (2013 - 2017)</h3>
-            <p>Bachelor degree "Management"</p>
-        </div>
+    <div class="wrapper">
+    <div class="namePhoto">
+        <div><img src="./img/photo.jpg" class="mainPhoto" alt="Photo"></div>
+        <div><h1 class="header.font">Aliya Ioanu</h1></div>
+    </div>  
+    <div class="mainText">
+        <section>
+        <h2>Contacts</h2>   
+            <ul>
+                <li>
+                    Phone Number: +7 961 632 36 89
+                </li>
+                <li>
+                    E-Mail: aliya.asadova15@gmail.com
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div>
+            <h2>
+                Education
+            </h2>
+            <dl>
+                <dt>High School of Economics - Nizhny Novgorod (2017 - 2019)</dd>
+                    <dd class="ddFont">Master's degree "Entrepreneurship and leadership"</dt>
+            </dl>
+            <dl>
+                <dt>N. I. Lobachevsky State University of Nizhny Novgorod (2013 - 2017)</dt>
+                    <dd class="ddFont">Bachelor degree "Management"</dd>
+            </dl>
+            </div>
+        </section>   
         <div>
             <h2>Skills</h2>
-            <span class="no-information">No information provided</span>
+            <span class="noInformation">No information provided</span>
+            <h2> Experience</h2>
+            <span class="noInformation">No information provided</span>
         </div>
         <div>
-            <h2>Experience</h2>
-            <span class="no-information">No information provided</span>
-        </div>
-        <div>
-            <h2>Additional Info</h2>
+            <h3>Additional Info</h3>
             <p>English: Upper-Intermediate (IELTS - 6.5)</p>
-        </div>
-    </main>
+    </div>
 </div>
+</div>
+    <footer class="footerText">
+        GITHUB - Aliya15
+    </footer>
 </body>
 </html>
